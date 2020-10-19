@@ -16,7 +16,6 @@ const Footer = () => {
     const fixedFooterClassName = 'footer-bg footer-fixed';
     const normalFooterClassName = 'footer-bg';
 
-    console.log(window.innerHeight)
     let products;
     switch(page) {
         case '/favorites':
