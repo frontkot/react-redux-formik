@@ -1,9 +1,13 @@
 export const validate = values => {
+    const letters = /^[A-Za-z]+$/;
     const errors = {};
 
+    console.log(values.firstName.match(letters))
     //Validate name
     if (!values.firstName) {
         errors.firstName = '* Required';
+    } else if (!values.firstName.match(letters)) {
+        errors.firstName = '* Letters only';
     } else if (values.firstName.length > 15) {
         errors.firstName = '* Must be 15 characters or less';
     }
@@ -11,6 +15,8 @@ export const validate = values => {
     //Validate surname
     if (!values.lastName) {
         errors.lastName = '* Required';
+    } else if (!values.lastName.match(letters)) {
+        errors.lastName = '* Letters only';
     } else if (values.lastName.length > 20) {
         errors.lastName = '* Must be 20 characters or less';
     }
