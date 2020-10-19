@@ -1,0 +1,102 @@
+.form{
+    &-window {
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(92, 92, 92, 0.5);
+    }
+    &-block {
+        min-width: 350px;
+        max-width: 600px;
+        border-radius: 10px;
+        background-color: #d7d7f7;
+        color: black;
+    }
+    &-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 40px 40px 25px 40px;
+        font-size: 15px;
+        line-height: 30px;
+        & input {
+            border: 1px solid rgb(44, 44, 44);
+            border-radius: 5px;
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    &-call_after {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        align-items: center;
+    }
+    
+    &-error {
+        color: red;
+        text-align: right;
+        padding: 5px; 
+        &_warning {
+            background-color: rgb(252, 197, 197);
+        }     
+    }
+
+    &-header {
+        position: relative;
+
+        margin: 0;
+        padding-top: 25px;
+        text-transform: uppercase;
+
+    }
+    &-button {
+        margin: 0 auto;
+        width: 100px;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: 700;
+        border: 1 solid black;
+        background-color: rgba($color: #d5fb987b, $alpha: 0.9);
+        color: rgb(0, 0, 0);
+        &:focus {
+            outline: none;
+        }
+        
+        &:hover {
+            background-color: rgb(114, 255, 74);            
+        }
+
+        &_disabled {
+            color: rgb(66, 66, 66);
+            background-color: honeydew;
+            border: 1 solid black;
+            &:hover {
+                cursor: not-allowed;
+                // pointer-events: none;
+                background-color: rgb(250, 131, 131);            
+
+            }
+    
+        }
+    }
+    &-info_massage {
+        font-size: 14px;
+        text-align: left;
+        color: rgb(116, 0, 0);
+        margin: 0;
+        padding: 0;
+    }
+
+}

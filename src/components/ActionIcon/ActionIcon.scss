@@ -1,0 +1,34 @@
+.icon {
+    cursor: pointer;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 23px;
+    height: 23px;
+    display: inline-block;
+  
+    &--sm {
+      width: 8px;
+      height: 8px;
+    }
+  
+    &--lg {
+      width: 32px;
+      height: 32px;
+    }
+
+    &--modal {
+      top: 32%;
+    }
+}
+
+.modal-closing {
+  top: 35%;
+  right: 8%;
+}
+
+.form-closing {
+  top: 50%;
+  right: 10%;
+}
+  

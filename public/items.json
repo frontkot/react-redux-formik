@@ -1,0 +1,101 @@
+{
+    "items": [
+        {
+            "id": "1",
+            "name": "Lorem",
+            "price": "100",
+            "url": "https://picsum.photos/id/237/250/200",
+            "article": "123",
+            "color": "red"
+        },
+        {
+            "id": "2",
+            "name": "Sorem",
+            "price": "150",
+            "url": "https://picsum.photos/id/238/250/200",
+            "article": "124",
+            "color": "pink"
+        },
+        {
+            "id": "3",
+            "name": "Torem",
+            "price": "200",
+            "url": "https://picsum.photos/id/239/250/200",
+            "article": "125",
+            "color": "mint"
+        },
+        {
+            "id": "4",
+            "name": "Corem",
+            "price": "250",
+            "url": "https://picsum.photos/id/236/250/200",
+            "article": "126",
+            "color": "burgundy"
+        },
+        {
+            "id": "5",
+            "name": "Porem",
+            "price": "300",
+            "url": "https://picsum.photos/id/235/250/200",
+            "article": "127",
+            "color": "white"
+        },
+        {
+            "id": "6",
+            "name": "Rorem",
+            "price": "350",
+            "url": "https://picsum.photos/id/234/250/200",
+            "article": "128",
+            "color": "orange"
+        },
+        {
+            "id": "7",
+            "name": "Worem",
+            "price": "400",
+            "url": "https://picsum.photos/id/233/250/200",
+            "article": "129",
+            "color": "purple"
+        },
+        {
+            "id": "8",
+            "name": "Borem",
+            "price": "450",
+            "url": "https://picsum.photos/id/232/250/200",
+            "article": "130",
+            "color": "black"
+        },
+        {
+            "id": "9",
+            "name": "Morem",
+            "price": "500",
+            "url": "https://picsum.photos/id/231/250/200",
+            "article": "131",
+            "color": "brown"
+        },
+        {
+            "id": "10",
+            "name": "Qorem",
+            "price": "550",
+            "url": "https://picsum.photos/id/229/250/200",
+            "article": "132",
+            "color": "yellow"
+        },
+        {
+            "id": "11",
+            "name": "Gorem",
+            "price": "600",
+            "url": "https://picsum.photos/id/240/250/200",
+            "article": "133",
+            "color": "coral"
+        },
+        {
+            "id": "12",
+            "name": "Jorem",
+            "price": "700",
+            "url": "https://picsum.photos/id/242/250/200",
+            "article": "135",
+            "color": "green"
+        }
+    ]
+}
+

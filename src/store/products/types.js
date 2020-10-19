@@ -1,0 +1,2 @@
+export const PRODUCTS_LOADING = 'PRODUCTS_LOADING';
+export const SAVE_PRODUCTS = 'SAVE_PRODUCTS';
