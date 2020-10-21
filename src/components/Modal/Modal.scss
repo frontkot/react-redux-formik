@@ -16,7 +16,7 @@
     &-block {
         max-width: 500px;
         border-radius: 10px;
-        background-color: #7e2626;
+        background-color: #2b8885fa;
         color: white;
     }
     &-header h3{
@@ -35,7 +35,7 @@
         text-align: left;
         display: flex;
         justify-content: space-between;
-        background-color: #531b1bfa;
+        background-color: #1c5c5ffa;
         & h3 {
             font-size: 22px;
             margin: 0;
@@ -58,7 +58,7 @@
         border-radius: 10px;
         font-size: 15px;
         border: 0 solid black;
-        background-color: rgba($color: #531b1bfa, $alpha: 1.0);
+        background-color: rgba($color: #1c5c5ffa, $alpha: 1.0);
         color: rgb(255, 255, 255);
         &:focus {
             outline: none;
